@@ -43,6 +43,13 @@ codex plugin add qoder@qoder-plugin-for-codex
 
 安装后重新启动一个 Codex 会话，执行 `$qoder:setup`。当所有检查项均为 `PASS` 时，插件即可使用。
 
+更新插件：
+
+```bash
+codex plugin marketplace upgrade qoder-plugin-for-codex
+codex plugin add qoder@qoder-plugin-for-codex
+```
+
 ## 快速上手
 
 最简单的使用方式是在 Codex 中直接描述任务：
