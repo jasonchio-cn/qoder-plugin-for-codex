@@ -1,0 +1,26 @@
+{
+  "name": "qoder-plugin-for-codex",
+  "version": "0.1.2",
+  "type": "module",
+  "description": "Use Qoder as a durable external agent from Codex.",
+  "license": "(MIT AND Apache-2.0)",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build-plugin.mjs",
+    "validate": "node scripts/validate-plugin.mjs"
+  },
+  "files": [
+    ".codex-plugin",
+    "assets",
+    "skills",
+    "scripts",
+    "LICENSE",
+    "LICENSE-APACHE",
+    "NOTICE",
+    "CHANGELOG.md",
+    "README.md"
+  ]
+}
