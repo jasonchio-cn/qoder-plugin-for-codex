@@ -28,6 +28,8 @@
 - `qodercli` 1.1.31 或更高版本，并已完成登录
 - `codex` 0.150.1 或更高版本；会话迁移依赖 Codex App Server
 
+Windows 目前存在已知限制：通过 npm 安装的 `qodercli.cmd` 无法由插件直接启动，评审还可能遗漏未跟踪文件。
+
 Qoder 执行任务会消耗你的 Qoder 用量，Codex 负责理解请求、调用 Skill 和整理结果。
 
 ## 安装
